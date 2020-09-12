@@ -4,9 +4,12 @@
 This archive contains supplementary material for the paper "A Partitioned Finite Element Method for power-preserving discretization of open systems of conservation laws", containing the source codes for the numerial results presented in the paper. An arXiv pre-print version of the paper is available [here](https://arxiv.org/abs/1906.05965).
 
 The following codes are provided:
-`codes/simulation1D_small.jl`: small amplitudes (linear) 1D simulation
-`codes/simulation1D_large.jl`: large amplitudes (nonlinear) 1D simulation
-`codes/simulation2D.jl`: large amplitudes (nonlinear) 2D simulation
+
+* `codes/simulation1D_small.jl`: small amplitudes (linear) 1D simulation
+
+* `codes/simulation1D_large.jl`: large amplitudes (nonlinear) 1D simulation
+
+* `codes/simulation2D.jl`: large amplitudes (nonlinear) 2D simulation
 
 ## Installing
 Before running the codes, you should install the [PortHamiltonian.jl](https://github.com/flavioluiz/PortHamiltonian.jl) package for Julia (it should work on v0.7):
