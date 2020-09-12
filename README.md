@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/flavioluiz/PFEM-article-supplementary-material.svg?branch=master)](https://travis-ci.org/flavioluiz/PFEM-article-supplementary-material)
 
 # A Partitioned Finite Element Method for power-preserving discretization of open systems of conservation laws - Supplementary material
-This archive contains supplementary material for the paper "A Partitioned Finite Element Method for power-preserving discretization of open systems of conservation laws", containing all the source codes for the numerial results presented in the paper.**  
+This archive contains supplementary material for the paper "A Partitioned Finite Element Method for power-preserving discretization of open systems of conservation laws", containing the source codes for the numerial results presented in the paper. An arXiv pre-print version of the paper is available [here](https://arxiv.org/abs/1906.05965).
 
 The following codes are provided:
 `codes/simulation1D_small.jl`: small amplitudes (linear) 1D simulation
@@ -32,3 +32,4 @@ In the case of large amplitudes, the following results should be obtained (snaps
 One code is provided for 1D simulations using PFEM (`simulation2D.jl`). Changing the amplitude of the oscillation is straightforward (it suffices to change the variable "amp").
 
 Example of results obtained:
+
