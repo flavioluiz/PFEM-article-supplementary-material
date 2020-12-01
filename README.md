@@ -32,7 +32,11 @@ In the case of large amplitudes, the following results should be obtained (snaps
 
 
 ## 2D simulations
-One code is provided for 1D simulations using PFEM (`simulation2D.jl`). Changing the amplitude of the oscillation is straightforward (it suffices to change the variable "amp").
+One code is provided for 2D simulations using PFEM (`simulation2D.jl`). Changing the amplitude of the oscillation is straightforward (it suffices to change the variable "amp").
 
-Example of results obtained:
+Example of results obtained (snapshots of simulation):
+
+![](./codes/simulation2DNL_4.jpg)  |  ![](./codes/simulation2DNL_8.jpg)
+:-------------------------:|:-------------------------:
+![](./codes/simulation2DNL_12.jpg)  | ![](./codes/simulation2DNL_16.jpg)
 
