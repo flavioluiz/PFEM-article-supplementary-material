@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/flavioluiz/PFEM-article-supplementary-material.svg?branch=master)](https://travis-ci.org/flavioluiz/PFEM-article-supplementary-material)
-
 # A Partitioned Finite Element Method for power-preserving discretization of open systems of conservation laws - Supplementary material
 Authors: F.L. Cardoso-Ribeiro, D. Matignon, L. Lefèvre.
 
