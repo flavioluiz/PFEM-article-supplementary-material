@@ -38,7 +38,7 @@ In the case of large amplitudes, the following results should be obtained (snaps
 ![Nonlinear simulations time](./codes/fluid1DsimulationLarge.jpg)
 
 
-Obs.: In the simulations obtained with the file `simulation1D_large.jl`, the gradient of the Hamiltonian is obtaines using an automatic differentiation tool ([ForwardDiff](https://www.juliadiff.org/ForwardDiff.jl/)). On the other hand, the file `simulation1D_analytical_gradient.jl`, this nonlinear gradient is obtained analytically, as explained in the paper.
+Obs.: In the simulations obtained with the file `simulation1D_large.jl`, the gradient of the Hamiltonian is obtained using an automatic differentiation tool ([ForwardDiff](https://www.juliadiff.org/ForwardDiff.jl/)). On the other hand, in the file `simulation1D_analytical_gradient.jl`, this nonlinear gradient is obtained analytically, as explained in the paper.
 
 ## 2D nonlinear simulations
 One code is provided for 2D simulations using PFEM (`simulation2D.jl`). Changing the amplitude of the oscillation is straightforward (it suffices to change the variable "amp").
