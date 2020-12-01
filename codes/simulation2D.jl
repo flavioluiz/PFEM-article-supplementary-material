@@ -200,6 +200,10 @@ N2 = size(Dxmatrix,2);
 J = [zeros(size(Massmatrix1)) Dxmatrix Dymatrix; -Dxmatrix' zeros(N2,2*N2); -Dymatrix' zeros(N2,2*N2)];
 Q = blkdiag(blkdiag(inv(Massmatrix1), inv(Massmatrix2)), inv(Massmatrix3));
 
+
+Mpp = blkdiag(Massmatrix2,Massmatrix3);
+DD = [Dxmatrix Dymatrix];
+
 #a,v = eig(J*Q);
 
 
@@ -365,3 +369,17 @@ legend(["nonlinear", "linear"])
 tight_layout();
 filename = "simulations2d_snapshot_large";
 savefig(string(filename,".jpg"));
+
+
+figure();
+spy(Massmatrix1);
+savefig("sparsityMq.pdf");
+
+figure();
+spy(Mpp);
+savefig("sparsityMp.pdf");
+
+figure();
+spy(DD);
+savefig("sparsityD.pdf");
+
